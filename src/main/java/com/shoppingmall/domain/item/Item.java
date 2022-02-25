@@ -1,14 +1,11 @@
 package com.shoppingmall.domain.item;
-
 import com.shoppingmall.constant.ItemSellStatus;
 import com.shoppingmall.domain.BaseTimeEntity;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
-
+@ToString
 @Getter
 @NoArgsConstructor
 @Entity
